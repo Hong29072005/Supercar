@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+   
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+#logo{
+    flex: 1;
+    margin-left: 45rem;
+    margin-top: 2rem;
+    font-weight: bold;
+    color:blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+
+}
+
+.container{
+    margin-left: 40%;
+    margin-top: 3rem;
+    width: 100%;
+    height: 45vh;
+    background-color:gray;
+    border: none;
+    border-radius: 1rem;
+}
+.container h1{
+    text-align: center;
+    margin-top: 2rem;
+    color:rgb(0, 0, 0);
+}
+.intput-box{
+    margin-left: 25rem;
+    margin-top: rem;
+}
+input[type="text"]{
+    padding: 0.5rem 2rem;
+    margin-top: 1rem;
+    margin-left: 5%;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+    
+
+}
+input[type="password"]{
+    padding: 0.5rem 2rem;
+    margin-top: 1rem;
+    margin-left: 5.4%;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+}
+
+
+#btt{
+    margin-left: 34rem;
+    padding: 0.5rem 4rem;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 1rem;
+}
+.remeber-forgot{
+    margin-left: 25rem;
+    margin-top: 1rem;
+    color: white;
+}
+
+.intput-box i{
+    color: white;
+}
+label[for="username"]{
+    color: white;
+    font-size: 1rem;
+}
+label input[type="checkbox"]{
+    color: white;
+    font-size: 2rem;
+}
+#btt a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+   
+
+}
+#btt :hover{
+    font-weight: bold;
+}
+.Footer{
+    width: 100%;
+    height: 15vh;
+    background-color: blue;
+    margin-top: 5rem;
+}
+
+#h2{
+  
+    text-align: center;
+    color: white;
+    
+}
+#e-mail{
+    margin-left: 39%;
+    margin-top: 1rem;
+    padding: 0.2rem 3rem;
+    border: none;
+   
+}
+#subcribe{
+    margin-left: 2%;
+    margin-top: 1rem;
+    padding: 0.3rem 3rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: red;
+    color: white;
+}
+.Footer1{
+    width: 100%;
+    height: 40vh;
+    background-color:rgb(93, 90, 90);
+}
+h1{
+    color: gray;
+}
+.b-F1{
+    margin-left: 15rem;
+    margin-top: -1rem;
+    width: 10%;
+    height: 30vh;
+    
+}
+h3{
+    color: white;
+}
+h5{
+    color: white;
+    
+}
+h2{
+    color: white;
+}
+.b-F2{
+    margin-left: 35rem;
+    margin-top: -15rem;
+    width: 10%;
+    height: 30vh;
+   
+}
+.b-F3{
+    margin-left: 50rem;
+    margin-top: -15rem;
+    width: 10%;
+    height: 30vh;
+   
+}
+.b-F4{
+    margin-left: 70rem;
+    margin-top: -15rem;
+    width: 25%;
+    height: 30vh;
+    
+}
+.follow {
+   margin-left: 66.5%;
+   margin-top: -12rem;
+}
+#subcribe1{
+    margin-left: 66.4%;
+    margin-top: 1rem;
+    padding: 0.3rem 3rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: red;
+    color: white;
+}
+
+/* Respornsive */
+
+@media only screen and (max-width:600px){
+    #logo{
+        margin-left: 6rem;
+        font-size: 1.5rem;
+    }
+    .container{
+        margin-top: 0rem;
+       height: 30vh;
+        color: rgb(238, 237, 237);
+    }
+    .intput-box{
+        margin-left: 0rem;
+        font-size: 1rem;
+    }
+    .remeber-forgot{
+        margin-left: 0rem;
+    }
+    #btt{
+        margin-left: 6rem;
+    }
+    #e-mail{
+        margin-left: 30%;
+        margin-top: -10rem;
+    }
+   
+    #subcribe{
+        margin-left: 32%;
+        margin-top: 0rem;
+        padding: 0.3rem 3rem;
+        border: none;
+        border-radius: 1rem;
+        background-color: red;
+        color: white;
+    }
+    .b-F1{
+        margin-left: 2rem;
+        margin-top: -1rem;
+        width: 40%;
+        height: 30vh;
+       
+    }
+    .follow{
+        margin-top:-2rem;
+        margin-left: 16rem;
+    }
+    #subcribe1{
+        margin-left: 50%;
+        margin-top: 1rem;
+        padding: 0rem 2rem;
+        border: none;
+        border-radius: 1rem;
+        background-color: red;
+        color: white;
+    }
+    
+
+
+
+
+}
